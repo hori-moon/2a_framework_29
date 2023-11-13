@@ -3,22 +3,16 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="/css/login.css" />
 	<title>Insert title here</title>
 </head>
 
 <body>
 	<form th:action="@{/gitpralogin}" method="POST">
 		<div class="login-page">
-			<div class="form">
-
-				<form class="login-form">
-					<h1>LOGIN</h1>
-					<input type="text" name="id" placeholder="ID" />
-					<input type="text" name="pw" placeholder="password" />
-					<button>login</button>
-				</form>
-			</div>
+			<h1>LOGIN</h1>
+			<input type="text" name="id"/>
+			<input type="text" name="pw"/>
+			<button>login</button>
 		</div>
 	</form>
 </body>
