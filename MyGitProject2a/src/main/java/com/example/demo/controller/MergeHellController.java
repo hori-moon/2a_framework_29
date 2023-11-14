@@ -12,4 +12,11 @@ public class MergeHellController {
 			System.out.println("現在" + i + "回目のループです");
 		}
 	}
+
+	void kadaiC() {
+		int a = 50;
+		int b = 75;
+		int c = a + b;
+		System.out.println(c);
+	}
 }
