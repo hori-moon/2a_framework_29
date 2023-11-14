@@ -9,9 +9,15 @@ public class MergeHellController {
 		kadaiC();
 	}
 
-	public static void kadaiB() {
+	void kadaiB() {
 		Random rnd = new Random();
 
 		System.out.println(rnd.nextInt(100));
+	}
+
+	void kadaiA() {
+		for (int i = 0; i <= 10; i++) {
+			System.out.println("現在" + i + "回目のループです");
+		}
 	}
 }
